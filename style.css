@@ -140,3 +140,37 @@ body{
 .li-con{
   gap: 10px;
 }
+
+
+@media(max-width: 500px) {
+
+
+  .container {
+  height: auto; 
+  max-height: 300px; 
+  overflow-y: auto;
+  width:80%;
+}
+
+#mybtn{
+margin-top: 20px;
+}
+
+#all-tasks li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  margin: 10px auto;
+  height: 50px;
+  width: 80%;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+}

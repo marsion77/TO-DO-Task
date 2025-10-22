@@ -73,3 +73,4 @@ function deleteTask(index) {
 }
 
 window.onload = displayTasks;
+
