@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.container{
+  /* height: 500px; */
+  width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid rgb(71, 8, 245);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:black;
+  color: white;
+  .container {
+  height: auto; 
+  max-height: 300px; 
+  overflow-y: auto;
+}
+
+}
+
+.inputbox{
+  margin-top: 35px;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+#mybtn{
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  background-color: aqua;
+  font-weight:bolder;
+}
+
+/* #mybtn:hover{
+  background-color: aquamarine;
+} */
+
+
+.task-para{
+  margin-top: 50px;
+  font-size: larger;
+}
+
+#regextag{
+  margin-top: 20px;
+  color: red;
+}
+
+#all-tasks{
+  margin-top: 20px;
+  overflow-y: hidden;
+}
+
+
+.edit-btn {
+  color: red;
+  border: none;
+  padding: 5px 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #45a049; 
+}
+
+
+.delete-btn {
+  color: red;
+  border: none;
+  padding: 5px 12px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #da190b; 
+}
+
+
+/* #all-tasks li {
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid white;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-around;
+} */
+
+#all-tasks li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  margin: 10px auto;
+  height: 50px;
+  width: 350px;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+.li-con{
+  gap: 10px;
+}
