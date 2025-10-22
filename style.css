@@ -130,10 +130,12 @@ body{
   height: 50px;
   width: 350px;
   font-size: 16px;
+  font-weight: bolder;
   border: 1px solid white;
   border-radius: 10px;
   list-style: none;
   box-sizing: border-box;
+  background: transparent;
 }
 
 
@@ -163,7 +165,7 @@ margin-top: 20px;
   gap: 5px;
   padding: 0 10px;
   margin: 10px auto;
-  height: 50px;
+  height: fi;
   width: 80%;
   font-size: 16px;
   border: 1px solid white;
